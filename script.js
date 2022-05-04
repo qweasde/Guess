@@ -1,16 +1,16 @@
-var quest = document.getElementById("question");
-var bigBtn = document.getElementById("big");
-var guessBtn = document.getElementById("guessed");
-var smallBtn = document.getElementById("small");
-var resetBtn = document.getElementById("reset");
-var stageCount = document.getElementById("stage");
+let quest = document.getElementById("question");
+let bigBtn = document.getElementById("big");
+let guessBtn = document.getElementById("guessed");
+let smallBtn = document.getElementById("small");
+let resetBtn = document.getElementById("reset");
+let stageCount = document.getElementById("stage");
 
-var min = 0;
-var max = 101;
+let min = 0;
+let max = 101;
 
-var middle = Math.floor((min + max)/2);
+let middle = Math.floor((min + max)/2);
 
-var stage = 1;
+let stage = 1;
 
 function start() {
   document.getElementById('startText').classList.add("notVis");
