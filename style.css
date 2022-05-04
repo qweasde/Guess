@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+
+@font-face {
+  font-family: "Font Over";
+  src: url(fonts/FontOver.otf);
+}
+
+@font-face {
+  font-family: "Pixel";
+  src: url(fonts/Fifaks.ttf);
+}
+
+.stage {
+  color: #28e053;
+}
+
+.hi {
+  font-size: 40px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Pixel', sans-serif;
+  background-color: #0B0E27;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 250px auto 0 auto;
+}
+
+button {
+  font-family: 'Font Over', sans-serif;
+  font-size: 14px;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  background: #505ABA;
+  border-radius: 15px;
+  color: #fff;
+  border: none;
+  transition: .3s;
+  letter-spacing: 5px;
+}
+
+button:hover {
+  background-color: #3343D1;
+  transition: .3s;
+}
+
+button:active {
+  background-color: #3343D1;
+  transition: .3s;
+}
+
+p {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.notVis {
+  display: none;
+}
+
+.count {
+  color: #28e053;
+}
+
+@media (max-width: 300px) {
+  p {
+    font-size: 12px;
+  }
+      
+
+  .container {
+    max-width: 300px;
+    margin: 300px auto 0 auto;
+  }
+
+  button {
+    font-size: 8px;
+    font-weight: 400;
+    width: 100px;
+    height: 50px;
+  }
+}

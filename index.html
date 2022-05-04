@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess</title>
+</head>
+<body>
+    
+    <div class="container">
+        <p id="question" class="notVis"></p>
+        <p id="stage" class="notVis"></p>
+        <button id="small" onclick="small()" class="notVis">Меньше</button>
+        <button id="guessed" onclick="guessed()" class="notVis">Угадал!</button>
+        <button id="big" onclick="big()" class="notVis">Больше</button>
+
+        <p id="startText"><span class="hi">🙋🏻‍♂️</span> <br> Спорим, что я угадаю любое твое число от 0 до 100 за <strong class="count">7 попыток</strong> или даже меньше?</p>
+        <button onclick="start()" id="startBtn">Поехали!</button>
+
+        <button id="reset" class="notVis" onclick="resetPage()">Начать заново</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
